@@ -304,7 +304,7 @@ let cam = new Camera(new Point(-100, 0, 0), 0, 600, 500,0.4, 200)
 cam.render(ctx)
 
 setInterval(()=>{
-    cube.rotateZ(3)
-    cube.rotateY(3)
+    cube.rotateZ(10)
+    cube.rotateY(10)
     cam.render(ctx)
 },30)
